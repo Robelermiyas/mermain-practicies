@@ -3,7 +3,7 @@
 graph LR
 A[Start] --> B[/Enter the number of elements/]
 B --> C[Initialize variables]
-C --> D[sum, mean, variance, stdDeviation]
+C --> D[Initialize sum, mean, variance, stdDeviation]
 D --> E[Initialize counter i]
 E --> F{Loop until i < n}
 F --> G[Enter a number]
