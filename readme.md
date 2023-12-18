@@ -1,28 +1,26 @@
 ```mermaid
 
 graph LR
-A[(Start)] --> B[/Enter the number of elements n/]
+A[Start] --> B[/Enter the number of elements/]
 B --> C[Initialize variables]
-C --> D[Initialize sum, mean, variance, stdDeviation = 0]
+C --> D[sum, mean, variance, stdDeviation = 0]
 D --> E[Initialize counter i]
-E --> F{i < n}
-F --> G[Enter a number ]
+E --> F{Loop until i < n}
+F --> G[Enter a number]
 G --> H[Add the number to sum]
 H --> I[Increment i]
-I --> E[mean = sum/n]
-E --> J[Calculate mean]
+I --> E
+E --> J[/Calculate mean/]
 J --> K[Reset sum]
 K --> L[Initialize counter i]
-L --> M{i < n}
+L --> M[Loop until i < n]
 M --> N[Enter a number]
-
-N --> O[variance += pow(num - mean, 2)]
-O --> P[variance /= n]
-P --> Q[LstdDeviation = sqrt(variance)]
-L --> Q[increament i]
-Q --> R[Calculate variance]
-R --> S{/print variance/]
-S --> T[calculate stdDevation]
-T --> U[/print standard devaition/]
-U --> V[(end)]
+N --> O[/Calculate variance/]
+O --> P[Increment i]
+P --> L
+L --> Q/Calculate average varianc/e]
+Q --> R[/Calculate standard deviation/]
+R --> S[Output input numbers]
+S --> T[Output mean and standard deviation]
+T --> U[End]
 ```
