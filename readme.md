@@ -1,7 +1,6 @@
 ```mermaid
 
 graph LR
-graph LR
 A[Start] --> B[Enter the number of elements]
 B --> C[Initialize variables]
 C --> D[Initialize sum, mean, variance, stdDeviation]
