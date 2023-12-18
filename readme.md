@@ -1,7 +1,7 @@
 ```mermaid
 
 graph LR
-A[((Start))] --> B[/Enter the number of elements/]
+A[(Start)] --> B[/Enter the number of elements/]
 B --> C[Initialize variables]
 C --> D[Initialize sum, mean, variance, stdDeviation]
 D --> E[Initialize counter i]
@@ -22,6 +22,6 @@ L --> Q[Calculate average variance]
 Q --> R[Calculate standard deviation]
 R --> S{print input numbers}
 S --> T{Output mean and standard deviation}
-T --> U[((End))]
+T --> U[(End)]
 
 ```
