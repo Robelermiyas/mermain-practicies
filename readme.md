@@ -22,7 +22,7 @@ L --> Q[/Calculate average variance/]
 Q --> R[/Calculate standard deviation/]
 R --> S[Output input numbers]
 S --> T[Output mean and standard deviation]
-T --> U[End]
+T --> U[(End)]
 
 
 
